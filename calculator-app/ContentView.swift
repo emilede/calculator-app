@@ -12,9 +12,7 @@ struct ContentView: View {
         VStack {
             Spacer()
             Spacer()
-            Spacer()
-            Spacer()
-            
+
             HStack{
                 Button(action: {
                     // Action for button press
@@ -35,7 +33,7 @@ struct ContentView: View {
                 Button(action: {
                     // Action for button press
                 }) {
-                    Image(systemName: "circle")
+                    Image(systemName: "percentage.circle")
                         .resizable()
                         .frame(width: 75, height: 75)
                 }
